@@ -1,0 +1,37 @@
+body {
+    background-image: url(HD-wallpaper-travel-agency.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: hsl(270, 6%, 6%);
+}
+
+.container {
+    justify-content: center;
+    margin: 200px 400px 300px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li {
+    margin: 0 25px; 
+}
+
+nav ul li a {
+    color: rgb(33, 27, 27);
+    font-weight: bold;`
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover {
+    color: hsl(357, 61%, 41%);
+}
